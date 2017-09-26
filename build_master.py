@@ -4,8 +4,10 @@ import sys
 import copy
 import numpy as np
 import yaml
+import argparse
 import xml.etree.cElementTree as ElementTree
 from astropy.table import Table
+
 
 def load_xml_elements(root, path):
     o = {}
@@ -22,13 +24,13 @@ def from_xml(xmlfile):
     root = ElementTree.ElementTree(file=xmlfile).getroot()
     srcs = root.findall('source')
     if len(srcs) == 0:
-        raise ValueError('Failed to find source in XML.')    
+        raise ValueError('Failed to find source in XML.')
     src_type = srcs[0].attrib['type']
     spec = load_xml_elements(srcs[0], 'spectrum')
     spectral_pars = load_xml_elements(srcs[0], 'spectrum/parameter')
     spectral_type = spec['type']
     return spectral_pars
-    
+
 
 def strip_columns(tab):
     """Strip whitespace from string columns."""
@@ -38,12 +40,22 @@ def strip_columns(tab):
 
 
 def main():
-            
-    tab = Table.read(sys.argv[1])
 
-    rootdir = os.path.dirname(sys.argv[1])
-    os.environ['LATEXTDIR'] = rootdir
+    usage = "usage: %(prog)s [archive]"
+    description = "Build the master archive YAML file from an extended archive directory."
+    parser = argparse.ArgumentParser(usage=usage, description=description)
+
+    parser.add_argument('--output', default='archive.yaml')
     
+    parser.add_argument('fitsfile', 
+                        help='Extended archive FITS file.  This must be located in the extended archive directory.')
+    
+    args = parser.parse_args()
+
+    tab = Table.read(args.fitsfile)
+    rootdir = os.path.dirname(args.fitsfile)
+    os.environ['LATEXTDIR'] = rootdir
+
     strip_columns(tab)
     o = {}
 
@@ -51,22 +63,20 @@ def main():
 
         src_dict = {}
         for c in row.colnames:
-            c = str(c)        
+            c = str(c)
             src_dict[c] = row[c]
             if isinstance(src_dict[c], np.number):
                 src_dict[c] = src_dict[c].tolist()
             elif isinstance(src_dict[c], np.str):
                 src_dict[c] = str(src_dict[c])
-
         if src_dict['Spatial_Function'] == 'RadialGauss':
-            src_dict['Spatial_Function'] = 'RadialGaussian'                
-        xmlpath = os.path.expandvars(src_dict['Spectral_Filename'])        
+            src_dict['Spatial_Function'] = 'RadialGaussian'
+        xmlpath = os.path.expandvars(src_dict['Spectral_Filename'])
         pars_dict = from_xml(xmlpath)
-        #del pars_dict['free']
-        src_dict['Spectral_Parameters'] = pars_dict        
+        src_dict['Spectral_Parameters'] = pars_dict
         o[str(row['Source_Name'])] = src_dict
 
-    yaml.dump(o,open('test.yaml','w'),default_flow_style=False)
+    yaml.dump(o, open(args.output, 'w'), default_flow_style=False)
 
 
 if __name__ == "__main__":
