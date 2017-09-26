@@ -17,7 +17,7 @@ Building the Archive
 
 .. code-block:: bash
 
-   $ python build_archive.py master.yaml --output=LAT_extended_sources_vXX
+   $ python build_archive.py archive.yaml --output=LAT_extended_sources_vXX
   
 
 Creating a new Release
