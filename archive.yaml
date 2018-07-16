@@ -712,7 +712,7 @@ Fornax A:
   Name_1FGL: ''
   Name_2FGL: 2FGL J0322.4-3717
   Name_3FGL: 3FGL J0322.5-3721
-  Photon_Flux: 5.899999933056677e-10
+  Photon_Flux: 5.7e-9
   RAJ2000: 50.673777
   Source_Name: Fornax A
   Spatial_Filename: $LATEXTDIR/Templates/FornaxA.fits
@@ -734,8 +734,8 @@ Fornax A:
       max: '100'
       min: '0'
       name: Prefactor
-      scale: 1e-13
-      value: '5.9'
+      scale: 1e-12
+      value: '5.7'
     Scale:
       free: '0'
       max: '100'
