@@ -701,19 +701,19 @@ FGES J1838.9-0704:
       scale: '1000'
       value: '15'
 Fornax A:
-  DEJ2000: -37.209999084472656
-  Energy_Flux: 6.559999939093064e-12
+  DEJ2000: -37.208227
+  Energy_Flux: 6.0e-12
   GLAT: -56.689998626708984
   GLON: 240.1699981689453
   Model_Form: Map
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.3499999940395355
-  Model_SemiMinor: 0.3499999940395355
+  Model_SemiMajor: 0.417
+  Model_SemiMinor: 0.202
   Name_1FGL: ''
   Name_2FGL: 2FGL J0322.4-3717
   Name_3FGL: 3FGL J0322.5-3721
   Photon_Flux: 5.899999933056677e-10
-  RAJ2000: 50.66999816894531
+  RAJ2000: 50.673777
   Source_Name: Fornax A
   Spatial_Filename: $LATEXTDIR/Templates/FornaxA.fits
   Spatial_Function: SpatialMap
@@ -721,13 +721,13 @@ Fornax A:
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
-      error: '0.07'
+      error: '0.08'
       free: '1'
       max: '5'
       min: '0'
       name: Index
       scale: '-1'
-      value: '1.99'
+      value: '1.97'
     Prefactor:
       error: '0.8'
       free: '1'
