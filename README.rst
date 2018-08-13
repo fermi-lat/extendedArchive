@@ -27,7 +27,7 @@ sets the path to the extended archive directory root directory.
 
 .. code-block:: bash
 
-   $ python build_archive.py archive.yaml --output=LAT_extended_sources_vXX
+   $ python build_archive.py archive.yaml --outdir=Extended_archive_vXX
   
 
 Creating a new Release
