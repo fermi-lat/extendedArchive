@@ -1,21 +1,21 @@
 CTB 109:
-  DEJ2000: 58.91999816894531
-  Energy_Flux: 8.699999921868429e-12
-  GLAT: -1.0028018951416016
-  GLON: 109.20283508300781
+  RAJ2000: 345.494
+  DEJ2000: 58.92
+  GLAT: -1.0028
+  GLON: 109.2028
   Model_Form: Disk
+  Model_SemiMajor: 0.249
+  Model_SemiMinor: 0.249
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.24877199530601501
-  Model_SemiMinor: 0.24877199530601501
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: 3FGL J2301.2+5853
-  Photon_Flux: 6.079999836927641e-10
-  RAJ2000: 345.4939880371094
+  Energy_Flux: 8.7e-12
+  Photon_Flux: 6.08e-10
   Source_Name: CTB 109
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ2301.9+5855.xml
+  Spectral_Filename: $LATEXTDIR/XML/CTB109.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -42,19 +42,19 @@ CTB 109:
       scale: '1000'
       value: '10'
 CenA Lobes:
+  RAJ2000: 201.0
   DEJ2000: -43.5
-  Energy_Flux: 5.079999962354087e-11
-  GLAT: 18.979999542236328
-  GLON: 309.1700134277344
+  GLAT: 18.98
+  GLON: 309.17
   Model_Form: Map
-  Model_PosAng: 10.0
   Model_SemiMajor: 2.5
   Model_SemiMinor: 1.0
+  Model_PosAng: 10.0
   Name_1FGL: 1FGL J1322.0-4515
   Name_2FGL: 2FGL J1324.0-4330e
   Name_3FGL: 3FGL J1324.0-4330e
-  Photon_Flux: 3.2900000501712157e-09
-  RAJ2000: 201.0
+  Energy_Flux: 5.08e-11
+  Photon_Flux: 3.29e-09
   Source_Name: CenA Lobes
   Spatial_Filename: $LATEXTDIR/Templates/CenALobes.fits
   Spatial_Function: SpatialMap
@@ -85,19 +85,19 @@ CenA Lobes:
       scale: '1000'
       value: '0.671'
 Cygnus Cocoon:
-  DEJ2000: 41.16999816894531
-  Energy_Flux: 6.570000099515028e-10
-  GLAT: 1.399999976158142
-  GLON: 79.5999984741211
+  RAJ2000: 307.17
+  DEJ2000: 41.17
+  GLAT: 1.4
+  GLON: 79.6
   Model_Form: 2D Gaussian
-  Model_PosAng: 0.0
   Model_SemiMajor: 3.0
   Model_SemiMinor: 3.0
+  Model_PosAng: 0.0
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: 3FGL J2028.6+4110e
-  Photon_Flux: 5.800000124622784e-08
-  RAJ2000: 307.1700134277344
+  Photon_Flux: 5.8e-08
+  Energy_Flux: 6.57e-10
   Source_Name: Cygnus Cocoon
   Spatial_Filename: ''
   Spatial_Function: RadialGaussian
@@ -126,19 +126,19 @@ Cygnus Cocoon:
       scale: '1000'
       value: '1'
 Cygnus Loop:
-  DEJ2000: 30.670000076293945
-  Energy_Flux: 6.280000131031471e-11
-  GLAT: -8.5600004196167
-  GLON: 73.9800033569336
+  RAJ2000: 312.75
+  DEJ2000: 30.83
+  GLAT: -8.46
+  GLON: 74.11
   Model_Form: Ring
+  Model_SemiMajor: 1.65
+  Model_SemiMinor: 1.65
   Model_PosAng: 0.0
-  Model_SemiMajor: 1.649999976158142
-  Model_SemiMinor: 1.649999976158142
   Name_1FGL: 1FGL J2046.4+3041
   Name_2FGL: 2FGL J2051.0+3040e
   Name_3FGL: 3FGL J2051.0+3040e
-  Photon_Flux: 8.129999784500797e-09
-  RAJ2000: 312.75
+  Photon_Flux: 8.13e-09
+  Energy_Flux: 6.28e-11
   Source_Name: Cygnus Loop
   Spatial_Filename: $LATEXTDIR/Templates/CygnusLoop.fits
   Spatial_Function: SpatialMap
@@ -177,19 +177,19 @@ Cygnus Loop:
       scale: 1e-11
       value: '5.99'
 FGES J1036.3-5833:
-  DEJ2000: -58.5629997253418
-  Energy_Flux: 4.000000053405728e-10
-  GLAT: -0.18149104714393616
-  GLON: 286.0810241699219
+  RAJ2000: 159.094
+  DEJ2000: -58.563
+  GLAT: -0.1815
+  GLON: 286.081
   Model_Form: Disk
+  Model_SemiMajor: 2.465
+  Model_SemiMinor: 2.465
   Model_PosAng: 0.0
-  Model_SemiMajor: 2.4649856090545654
-  Model_SemiMinor: 2.4649856090545654
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: ''
-  Photon_Flux: 3.5700001177474405e-08
-  RAJ2000: 159.093994140625
+  Photon_Flux: 3.57e-08
+  Energy_Flux: 4.00e-10
   Source_Name: FGES J1036.3-5833
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -220,19 +220,19 @@ FGES J1036.3-5833:
       scale: '1000'
       value: '3.8'
 FGES J1109.4-6115:
-  DEJ2000: -61.25899887084961
-  Energy_Flux: 2.109999952537578e-10
-  GLAT: -0.7799999713897705
-  GLON: 290.9800109863281
+  RAJ2000: 167.36
+  DEJ2000: -61.259
+  GLAT: -0.78
+  GLON: 290.98
   Model_Form: Disk
+  Model_SemiMajor: 1.267
+  Model_SemiMinor: 1.267
   Model_PosAng: 0.0
-  Model_SemiMajor: 1.2669999599456787
-  Model_SemiMinor: 1.2669999599456787
   Name_1FGL: 1FGL J1112.1-6041c
   Name_2FGL: 2FGL J1112.1-6040
   Name_3FGL: 3FGL J1111.9-6038
-  Photon_Flux: 2.1600000010835174e-08
-  RAJ2000: 167.36000061035156
+  Photon_Flux: 2.16e-08
+  Energy_Flux: 2.11e-10
   Source_Name: FGES J1109.4-6115
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -271,19 +271,19 @@ FGES J1109.4-6115:
       scale: 1e-12
       value: '1.83'
 FGES J1213.3-6240:
-  DEJ2000: -62.676998138427734
-  Energy_Flux: 1.1299999824743168e-10
-  GLAT: -0.12688560783863068
-  GLON: 298.58282470703125
+  RAJ2000: 183.35
+  DEJ2000: -62.677
+  GLAT: -0.1269
+  GLON: 298.5828
   Model_Form: Disk
+  Model_SemiMajor: 0.332
+  Model_SemiMinor: 0.332
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.3318786025047302
-  Model_SemiMinor: 0.3318786025047302
   Name_1FGL: 1FGL J1213.7-6240c
   Name_2FGL: 2FGL J1214.0-6237
   Name_3FGL: 3FGL J1214.0-6236
-  Photon_Flux: 8.829999842419056e-09
-  RAJ2000: 183.35000610351562
+  Photon_Flux: 8.83e-09
+  Energy_Flux: 1.13e-10
   Source_Name: FGES J1213.3-6240
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -314,19 +314,19 @@ FGES J1213.3-6240:
       scale: '1000'
       value: '1.3'
 FGES J1409.1-6121:
-  DEJ2000: -61.35300064086914
-  Energy_Flux: 2.0700000047391143e-10
-  GLAT: 0.12567031383514404
-  GLON: 312.11065673828125
+  RAJ2000: 212.294
+  DEJ2000: -61.353
+  GLAT: 0.1257
+  GLON: 312.1107
   Model_Form: Disk
+  Model_SemiMajor: 0.733
+  Model_SemiMinor: 0.733
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.7331369519233704
-  Model_SemiMinor: 0.7331369519233704
   Name_1FGL: 1FGL J1410.3-6128c
   Name_2FGL: 2FGL J1405.5-6121
   Name_3FGL: 3FGL J1405.4-6119
-  Photon_Flux: 1.9199999812258284e-08
-  RAJ2000: 212.29400634765625
+  Photon_Flux: 1.92e-08
+  Energy_Flux: 2.07e-10
   Source_Name: FGES J1409.1-6121
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -357,19 +357,19 @@ FGES J1409.1-6121:
       scale: '1000'
       value: '5'
 FGES J1553.8-5325:
-  DEJ2000: -53.42599868774414
-  Energy_Flux: 1.6199999675059473e-10
-  GLAT: 0.2787787914276123
-  GLON: 328.12725830078125
+  RAJ2000: 238.456
+  DEJ2000: -53.426
+  GLAT: 0.2788
+  GLON: 328.1273
   Model_Form: Disk
+  Model_SemiMajor: 0.523
+  Model_SemiMinor: 0.523
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.5225107669830322
-  Model_SemiMinor: 0.5225107669830322
   Name_1FGL: 1FGL J1554.8-5312c
   Name_2FGL: 2FGL J1554.4-5317c
   Name_3FGL: 3FGL J1554.4-5315c
-  Photon_Flux: 1.4600000319830997e-08
-  RAJ2000: 238.45599365234375
+  Photon_Flux: 1.4e-08
+  Energy_Flux: 1.62e-10
   Source_Name: FGES J1553.8-5325
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -400,19 +400,19 @@ FGES J1553.8-5325:
       scale: '1000'
       value: '3'
 FGES J1631.6-4756:
-  DEJ2000: -47.939998626708984
-  Energy_Flux: 1.25000001668929e-11
-  GLAT: 0.16598361730575562
-  GLON: 336.2425537109375
+  RAJ2000: 247.922
+  DEJ2000: -47.94
+  GLAT: 0.166
+  GLON: 336.2426
   Model_Form: Disk
+  Model_SemiMajor: 0.256
+  Model_SemiMinor: 0.256
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.25622501969337463
-  Model_SemiMinor: 0.25622501969337463
   Name_1FGL: 1FGL J1632.9-4802c
   Name_2FGL: 2FGL J1632.4-4753c
   Name_3FGL: 3FGL J1633.0-4746e
-  Photon_Flux: 1.8000000379103653e-09
-  RAJ2000: 247.9219970703125
+  Photon_Flux: 1.80e-09
+  Energy_Flux: 1.25e-11
   Source_Name: FGES J1631.6-4756
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -443,19 +443,19 @@ FGES J1631.6-4756:
       scale: '1000'
       value: '53'
 FGES J1633.0-4746:
-  DEJ2000: -47.77000045776367
-  Energy_Flux: 3.550000016172561e-10
-  GLAT: 0.11664598435163498
-  GLON: 336.5211486816406
+  RAJ2000: 248.259
+  DEJ2000: -47.770
+  GLAT: 0.1166
+  GLON: 336.5211
   Model_Form: Disk
+  Model_SemiMajor: 0.610
+  Model_SemiMinor: 0.610
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.6103675961494446
-  Model_SemiMinor: 0.6103675961494446
   Name_1FGL: 1FGL J1632.7-4733c
   Name_2FGL: 2FGL J1634.4-4743c
   Name_3FGL: 3FGL J1633.0-4746e
-  Photon_Flux: 3.310000096234944e-08
-  RAJ2000: 248.25900268554688
+  Photon_Flux: 3.31e-08
+  Energy_Flux: 3.55e-10
   Source_Name: FGES J1633.0-4746
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -486,19 +486,19 @@ FGES J1633.0-4746:
       scale: '1000'
       value: '2.4'
 FGES J1652.2-4633:
-  DEJ2000: -46.555999755859375
-  Energy_Flux: 1.0299999742002797e-10
-  GLAT: -1.5401724576950073
-  GLON: 339.58038330078125
+  RAJ2000: 253.055
+  DEJ2000: -46.556
+  GLAT: -1.5402
+  GLON: 339.5804
   Model_Form: Disk
+  Model_SemiMajor: 0.718
+  Model_SemiMinor: 0.718
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.7175637483596802
-  Model_SemiMinor: 0.7175637483596802
   Name_1FGL: 1FGL J1651.5-4602c
   Name_2FGL: 2FGL J1650.6-4603c
   Name_3FGL: 3FGL J1650.3-4600
-  Photon_Flux: 8.669999829180597e-09
-  RAJ2000: 253.05499267578125
+  Photon_Flux: 8.67e-09
+  Energy_Flux: 1.03e-10
   Source_Name: FGES J1652.2-4633
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -529,19 +529,19 @@ FGES J1652.2-4633:
       scale: '1000'
       value: '6'
 FGES J1655.5-4737:
-  DEJ2000: -47.63199996948242
-  Energy_Flux: 2.189999917523444e-11
-  GLAT: -2.656276226043701
-  GLON: 339.1006774902344
+  RAJ2000: 253.883
+  DEJ2000: -47.632
+  GLAT: -2.6563
+  GLON: 339.1007
   Model_Form: Disk
+  Model_SemiMajor: 0.334
+  Model_SemiMinor: 0.334
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.33440107107162476
-  Model_SemiMinor: 0.33440107107162476
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: 3FGL J1655.5-4748
-  Photon_Flux: 1.810000038737769e-09
-  RAJ2000: 253.88299560546875
+  Photon_Flux: 1.81e-09
+  Energy_Flux: 2.19e-11
   Source_Name: FGES J1655.5-4737
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -572,19 +572,19 @@ FGES J1655.5-4737:
       scale: '1000'
       value: '2'
 FGES J1745.8-3028:
-  DEJ2000: -30.475000381469727
-  Energy_Flux: 8.01999994193281e-11
-  GLAT: -0.8370000123977661
-  GLON: 358.7080078125
+  RAJ2000: 266.453
+  DEJ2000: -30.475
+  GLAT: -0.837
+  GLON: 358.708
   Model_Form: Disk
+  Model_SemiMajor: 0.528
+  Model_SemiMinor: 0.528
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.527999997138977
-  Model_SemiMinor: 0.527999997138977
   Name_1FGL: ''
   Name_2FGL: 2FGL J1745.5-3028c
   Name_3FGL: 3FGL J1745.1-3011
-  Photon_Flux: 7.200000151641461e-09
-  RAJ2000: 266.4530029296875
+  Photon_Flux: 7.20e-09
+  Energy_Flux: 8.02e-11
   Source_Name: FGES J1745.8-3028
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -615,19 +615,19 @@ FGES J1745.8-3028:
       scale: '1000'
       value: '6'
 FGES J1836.5-0651:
-  DEJ2000: -6.866000175476074
-  Energy_Flux: 1.9599999401265222e-10
-  GLAT: 0.15829840302467346
-  GLON: 25.130443572998047
+  RAJ2000: 279.143
+  DEJ2000: -6.866
+  GLAT: 0.1583
+  GLON: 25.1304
   Model_Form: Disk
+  Model_SemiMajor: 0.535
+  Model_SemiMinor: 0.535
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.5347691774368286
-  Model_SemiMinor: 0.5347691774368286
   Name_1FGL: 1FGL J1837.5-0659c
   Name_2FGL: 2FGL J1837.3-0700c
   Name_3FGL: 3FGL J1836.5-0655e
-  Photon_Flux: 7.3000001599154984e-09
-  RAJ2000: 279.14300537109375
+  Photon_Flux: 7.30e-09
+  Energy_Flux: 1.96e-10
   Source_Name: FGES J1836.5-0651
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -658,19 +658,19 @@ FGES J1836.5-0651:
       scale: '1000'
       value: '5'
 FGES J1838.9-0704:
-  DEJ2000: -7.066999912261963
-  Energy_Flux: 6.280000131031471e-11
-  GLAT: -0.46483585238456726
-  GLON: 25.226177215576172
+  RAJ2000: 279.745
+  DEJ2000: -7.067
+  GLAT: -0.4648
+  GLON: 25.2262
   Model_Form: Disk
+  Model_SemiMajor: 0.523
+  Model_SemiMinor: 0.523
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.5234697461128235
-  Model_SemiMinor: 0.5234697461128235
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: 3FGL J1838.9-0646
-  Photon_Flux: 4.449999924105441e-09
-  RAJ2000: 279.7449951171875
+  Photon_Flux: 4.45e-09
+  Energy_Flux: 6.28e-11
   Source_Name: FGES J1838.9-0704
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -701,19 +701,19 @@ FGES J1838.9-0704:
       scale: '1000'
       value: '15'
 Fornax A:
-  DEJ2000: -37.208227
-  Energy_Flux: 6.0e-12
-  GLAT: -56.689998626708984
-  GLON: 240.1699981689453
+  RAJ2000: 50.67
+  DEJ2000: -37.21
+  GLAT: -56.69
+  GLON: 240.17
   Model_Form: Map
-  Model_PosAng: 105.0
   Model_SemiMajor: 0.417
   Model_SemiMinor: 0.202
+  Model_PosAng: 105.0
   Name_1FGL: ''
   Name_2FGL: 2FGL J0322.4-3717
   Name_3FGL: 3FGL J0322.5-3721
   Photon_Flux: 5.7e-9
-  RAJ2000: 50.673777
+  Energy_Flux: 6.0e-12
   Source_Name: Fornax A
   Spatial_Filename: $LATEXTDIR/Templates/FornaxA.fits
   Spatial_Function: SpatialMap
@@ -744,23 +744,23 @@ Fornax A:
       scale: '1000'
       value: '1'
 G150.3+4.5:
-  DEJ2000: 55.55400085449219
-  Energy_Flux: 4.5699999340342856e-11
-  GLAT: 4.578353404998779
-  GLON: 150.2422332763672
+  RAJ2000: 66.815
+  DEJ2000: 55.554
+  GLAT: 4.5784
+  GLON: 150.2422
   Model_Form: Disk
+  Model_SemiMajor: 1.515
+  Model_SemiMinor: 1.515
   Model_PosAng: 0.0
-  Model_SemiMajor: 1.5145682096481323
-  Model_SemiMinor: 1.5145682096481323
   Name_1FGL: 1FGL J0427.9+5556
   Name_2FGL: 2FGL J0423.4+5612
   Name_3FGL: 3FGL J0425.8+5600
-  Photon_Flux: 3.789999869496796e-09
-  RAJ2000: 66.81500244140625
+  Photon_Flux: 3.79e-09
+  Energy_Flux: 4.57e-11
   Source_Name: G150.3+4.5
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ0427.2+5533.xml
+  Spectral_Filename: $LATEXTDIR/XML/G150.3+4.5.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -787,23 +787,23 @@ G150.3+4.5:
       scale: '1000'
       value: '7'
 G24.7+0.6:
-  DEJ2000: -7.110000133514404
-  Energy_Flux: 8.500000009403763e-11
-  GLAT: 0.5853123664855957
-  GLON: 24.634252548217773
+  RAJ2000: 278.531
+  DEJ2000: -7.11
+  GLAT: 0.5853
+  GLON: 24.6343
   Model_Form: Disk
+  Model_SemiMajor: 0.214
+  Model_SemiMinor: 0.214
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.21365049481391907
-  Model_SemiMinor: 0.21365049481391907
   Name_1FGL: 1FGL J1834.7-0709c
   Name_2FGL: 2FGL J1834.7-0705c
   Name_3FGL: 3FGL J1833.9-0711
-  Photon_Flux: 7.499999732374363e-09
-  RAJ2000: 278.531005859375
+  Photon_Flux: 7.50e-09
+  Energy_Flux: 8.50e-11
   Source_Name: G24.7+0.6
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1834.1-0706.xml
+  Spectral_Filename: $LATEXTDIR/XML/G24.7+0.6.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -830,19 +830,19 @@ G24.7+0.6:
       scale: '1000'
       value: '3'
 G296.5+10.0:
-  DEJ2000: -52.72999954223633
-  Energy_Flux: 1.1000000389727038e-11
-  GLAT: 9.59000015258789
-  GLON: 296.3699951171875
+  RAJ2000: 182.13
+  DEJ2000: -52.73
+  GLAT: 9.59
+  GLON: 296.37
   Model_Form: Disk
+  Model_SemiMajor: 0.76
+  Model_SemiMinor: 0.76
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.7599999904632568
-  Model_SemiMinor: 0.7599999904632568
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: 3FGL J1209.1-5224
-  Photon_Flux: 9.53000012238192e-10
-  RAJ2000: 182.1300048828125
+  Photon_Flux: 9.53e-10
+  Energy_Flux: 1.10e-11
   Source_Name: G296.5+10.0
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -873,23 +873,23 @@ G296.5+10.0:
       scale: '1000'
       value: '3.3'
 G337.0-0.1:
-  DEJ2000: -47.52299880981445
-  Energy_Flux: 1.2699999385468175e-10
-  GLAT: -0.12286954373121262
-  GLON: 337.07684326171875
+  DEJ2000: -47.523
+  RAJ2000: 249.079
+  GLAT: -0.1229
+  GLON: 337.077
   Model_Form: Disk
+  Model_SemiMajor: 0.139
+  Model_SemiMinor: 0.139
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.1387440413236618
-  Model_SemiMinor: 0.1387440413236618
   Name_1FGL: 1FGL J1636.4-4737c
   Name_2FGL: ''
   Name_3FGL: 3FGL J1636.2-4734
-  Photon_Flux: 1.5299999489570837e-08
-  RAJ2000: 249.07899475097656
+  Photon_Flux: 1.53e-08
+  Energy_Flux: 1.27e-10
   Source_Name: G337.0-0.1
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1636.3-4731.xml
+  Spectral_Filename: $LATEXTDIR/XML/G337.0-0.1.xml
   Spectral_Function: LogParabola
   Spectral_Parameters:
     Eb:
@@ -924,19 +924,19 @@ G337.0-0.1:
       scale: 1e-12
       value: '3.2'
 HB 21:
-  DEJ2000: 50.439998626708984
-  Energy_Flux: 8.630000186693465e-11
-  GLAT: 4.670000076293945
+  RAJ2000: 311.32
+  DEJ2000: 50.44
+  GLAT: 4.67
   GLON: 88.75
   Model_Form: Disk
+  Model_SemiMajor: 1.19
+  Model_SemiMinor: 1.19
   Model_PosAng: 0.0
-  Model_SemiMajor: 1.190000057220459
-  Model_SemiMinor: 1.190000057220459
   Name_1FGL: 1FGL J2046.0+4954
   Name_2FGL: 2FGL J2046.0+4954
   Name_3FGL: 3FGL J2045.2+5026e
-  Photon_Flux: 1.0399999972321439e-08
-  RAJ2000: 311.32000732421875
+  Photon_Flux: 1.04e-08
+  Energy_Flux: 8.63e-11
   Source_Name: HB 21
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -975,19 +975,19 @@ HB 21:
       scale: 1e-11
       value: '5.76'
 HB 3:
-  DEJ2000: 62.689998626708984
-  Energy_Flux: 3.779999924180544e-11
-  GLAT: 1.600000023841858
-  GLON: 133.0500030517578
+  RAJ2000: 35.36
+  DEJ2000: 62.69
+  GLAT: 1.60
+  GLON: 133.05
   Model_Form: Disk
+  Model_SemiMajor: 0.80
+  Model_SemiMinor: 0.80
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.800000011920929
-  Model_SemiMinor: 0.800000011920929
   Name_1FGL: 1FGL J0220.0+6257
   Name_2FGL: 2FGL J0221.4+6257c
   Name_3FGL: 3FGL J0224.0+6235
-  Photon_Flux: 4.579999934861689e-09
-  RAJ2000: 35.36000061035156
+  Photon_Flux: 4.58e-09
+  Energy_Flux: 3.78e-11
   Source_Name: HB 3
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -1026,19 +1026,19 @@ HB 3:
       scale: 1e-12
       value: '7.38'
 HB 9:
-  DEJ2000: 46.65999984741211
-  Energy_Flux: 2.6200000502463183e-11
-  GLAT: 2.690000057220459
-  GLON: 160.3699951171875
+  RAJ2000: 75.08
+  DEJ2000: 46.66
+  GLAT: 2.69
+  GLON: 160.37
   Model_Form: Map
-  Model_PosAng: 0.0
   Model_SemiMajor: 1.0
   Model_SemiMinor: 1.0
+  Model_PosAng: 0.0
   Name_1FGL: ''
   Name_2FGL: 2FGL J0503.2+4643
   Name_3FGL: ''
-  Photon_Flux: 3.5400000708563084e-09
-  RAJ2000: 75.08000183105469
+  Photon_Flux: 3.54e-09
+  Energy_Flux: 2.62e-11
   Source_Name: HB 9
   Spatial_Filename: $LATEXTDIR/Templates/HB9.fits
   Spatial_Function: SpatialMap
@@ -1077,19 +1077,19 @@ HB 9:
       scale: 1e-12
       value: '5.84'
 HESS J1303-631:
-  DEJ2000: -63.20000076293945
-  Energy_Flux: 2.259999999643103e-11
-  GLAT: -0.36000001430511475
-  GLON: 304.239990234375
+  RAJ2000: 195.75
+  DEJ2000: -63.20
+  GLAT: -0.36
+  GLON: 304.24
   Model_Form: 2D Gaussian
+  Model_SemiMajor: 0.24
+  Model_SemiMinor: 0.24
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.23999999463558197
-  Model_SemiMinor: 0.23999999463558197
   Name_1FGL: ''
   Name_2FGL: 2FGL J1303.7-6316c
   Name_3FGL: 3FGL J1303.0-6312e
-  Photon_Flux: 1.57000001888008e-09
-  RAJ2000: 195.75
+  Photon_Flux: 1.57e-09
+  Energy_Flux: 2.26e-11
   Source_Name: HESS J1303-631
   Spatial_Filename: ''
   Spatial_Function: RadialGaussian
@@ -1120,41 +1120,41 @@ HESS J1303-631:
       scale: '1000'
       value: '17.5'
 HESS J1356-645:
-  DEJ2000: -64.33999633789062
-  Energy_Flux: 6.659999808589223e-12
-  GLAT: -2.319999933242798
-  GLON: 309.7699890136719
+  RAJ2000: 208.80
+  DEJ2000: -64.34
+  GLAT: -2.32
+  GLON: 309.77
   Model_Form: Disk
+  Model_SemiMajor: 0.405
+  Model_SemiMinor: 0.405
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.4050000011920929
-  Model_SemiMinor: 0.4050000011920929
   Name_1FGL: ''
   Name_2FGL: 2FGL J1356.0-6436
   Name_3FGL: 3FGL J1356.6-6428
-  Photon_Flux: 4.629999994509859e-10
-  RAJ2000: 208.8000030517578
+  Photon_Flux: 4.63e-10
+  Energy_Flux: 6.66e-12
   Source_Name: HESS J1356-645
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1355.1-6420.xml
+  Spectral_Filename: $LATEXTDIR/XML/HESSJ1356-645.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
-      error: '0.124745383'
+      error: '0.1247'
       free: '1'
       max: '5'
       min: '0'
       name: Index
       scale: '-1'
-      value: '1.44186638'
+      value: '1.442'
     Prefactor:
-      error: '0.9389243448'
+      error: '0.9389'
       free: '1'
       max: '100'
       min: '0'
       name: Prefactor
       scale: 1e-16
-      value: '5.382438683'
+      value: '5.3824'
     Scale:
       free: '0'
       max: '100'
@@ -1163,41 +1163,41 @@ HESS J1356-645:
       scale: '1000'
       value: '68.864'
 HESS J1420-607:
-  DEJ2000: -60.779998779296875
-  Energy_Flux: 2.999999901276418e-11
-  GLAT: 0.23999999463558197
-  GLON: 313.57000732421875
+  RAJ2000: 215.08
+  DEJ2000: -60.78
+  GLAT: 0.24
+  GLON: 313.57
   Model_Form: Disk
+  Model_SemiMajor: 0.123
+  Model_SemiMinor: 0.123
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.12300000339746475
-  Model_SemiMinor: 0.12300000339746475
   Name_1FGL: 1FGL J1420.1-6048
   Name_2FGL: 2FGL J1420.1-6047
   Name_3FGL: 3FGL J1420.0-6048
-  Photon_Flux: 3.959999883562659e-09
-  RAJ2000: 215.0800018310547
+  Photon_Flux: 3.96e-09
+  Energy_Flux: 3.00e-11
   Source_Name: HESS J1420-607
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1420.3-6046.xml
+  Spectral_Filename: $LATEXTDIR/XML/HESSJ1420-607.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
-      error: '0.1159333553'
+      error: '0.116'
       free: '1'
       max: '5'
       min: '0'
       name: Index
       scale: '-1'
-      value: '2.134077055'
+      value: '2.134'
     Prefactor:
-      error: '0.6949079497'
+      error: '0.695'
       free: '1'
       max: '100'
       min: '0'
       name: Prefactor
       scale: 1e-15
-      value: '4.754511507'
+      value: '4.7545'
     Scale:
       free: '0'
       max: '100'
@@ -1206,23 +1206,23 @@ HESS J1420-607:
       scale: '1000'
       value: '28.717'
 HESS J1507-622:
-  DEJ2000: -62.46699905395508
-  Energy_Flux: 1.889999962090272e-11
-  GLAT: -3.656315565109253
-  GLON: 317.9932861328125
+  RAJ2000: 226.984
+  DEJ2000: -62.467
+  GLAT: -3.6563
+  GLON: 317.9933
   Model_Form: Disk
+  Model_SemiMajor: 0.362
+  Model_SemiMinor: 0.362
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.36234545707702637
-  Model_SemiMinor: 0.36234545707702637
   Name_1FGL: ''
   Name_2FGL: 2FGL J1507.0-6223
   Name_3FGL: 3FGL J1506.6-6219
-  Photon_Flux: 1.640000024671906e-09
-  RAJ2000: 226.98399353027344
+  Photon_Flux: 1.64e-09
+  Energy_Flux: 1.89e-11
   Source_Name: HESS J1507-622
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1507.9-6228.xml
+  Spectral_Filename: $LATEXTDIR/XML/HESSJ1507-622.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -1249,19 +1249,19 @@ HESS J1507-622:
       scale: '1000'
       value: '5'
 HESS J1614-518:
-  DEJ2000: -51.779998779296875
-  Energy_Flux: 5.649999912371584e-11
-  GLAT: -0.6600000262260437
-  GLON: 331.6600036621094
+  RAJ2000: 243.83
+  DEJ2000: -51.78
+  GLAT: -0.66
+  GLON: 331.66
   Model_Form: Disk
+  Model_SemiMajor: 0.42
+  Model_SemiMinor: 0.42
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.41999998688697815
-  Model_SemiMinor: 0.41999998688697815
   Name_1FGL: 1FGL J1614.7-5138c
   Name_2FGL: 2FGL J1615.2-5138
   Name_3FGL: 3FGL J1615.3-5146e
-  Photon_Flux: 3.550000071683712e-09
-  RAJ2000: 243.8300018310547
+  Photon_Flux: 3.55e-09
+  Energy_Flux: 5.65e-11
   Source_Name: HESS J1614-518
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -1292,19 +1292,19 @@ HESS J1614-518:
       scale: '1000'
       value: '6.02'
 HESS J1616-508:
-  DEJ2000: -50.90999984741211
-  Energy_Flux: 1.5300000155704652e-10
-  GLAT: -0.12999999523162842
-  GLON: 332.3699951171875
+  RAJ2000: 244.06
+  DEJ2000: -50.91
+  GLAT: -0.13
+  GLON: 332.37
   Model_Form: Disk
+  Model_SemiMajor: 0.32
+  Model_SemiMinor: 0.32
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.3199999928474426
-  Model_SemiMinor: 0.3199999928474426
   Name_1FGL: 1FGL J1617.5-5105c
   Name_2FGL: 2FGL J1615.0-5051
   Name_3FGL: 3FGL J1616.2-5054e
-  Photon_Flux: 1.3600000237090626e-08
-  RAJ2000: 244.05999755859375
+  Photon_Flux: 1.36e-08
+  Energy_Flux: 1.53e-10
   Source_Name: HESS J1616-508
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -1335,23 +1335,23 @@ HESS J1616-508:
       scale: '1000'
       value: '2.726'
 HESS J1804-216:
-  DEJ2000: -21.735000610351562
-  Energy_Flux: 8.199999707025896e-11
-  GLAT: -0.09484520554542542
-  GLON: 8.397396087646484
+  RAJ2000: 271.191
+  DEJ2000: -21.735
+  GLAT: -0.0948
+  GLON: 8.3974
   Model_Form: Disk
+  Model_SemiMajor: 0.378
+  Model_SemiMinor: 0.378
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.3778887987136841
-  Model_SemiMinor: 0.3778887987136841
   Name_1FGL: 1FGL J1805.2-2137c
   Name_2FGL: 2FGL J1805.6-2136e
   Name_3FGL: 3FGL J1805.6-2136e
-  Photon_Flux: 6.20000006890109e-09
-  RAJ2000: 271.1910095214844
+  Photon_Flux: 6.20e-09
+  Energy_Flux: 8.20e-11
   Source_Name: HESS J1804-216
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1804.7-2144.xml
+  Spectral_Filename: $LATEXTDIR/XML/HESSJ1804-216.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -1378,19 +1378,19 @@ HESS J1804-216:
       scale: '1000'
       value: '28'
 HESS J1825-137:
-  DEJ2000: -13.852100372314453
-  Energy_Flux: 1.6100000499452705e-10
-  GLAT: -0.45320001244544983
-  GLON: 17.566999435424805
+  RAJ2000: 276.1298
+  DEJ2000: -13.8521
+  GLAT: -0.4532
+  GLON: 17.567
   Model_Form: 2D Gaussian
-  Model_PosAng: 0.0
   Model_SemiMajor: 0.75
   Model_SemiMinor: 0.75
+  Model_PosAng: 0.0
   Name_1FGL: 1FGL J1825.7-1410c
   Name_2FGL: 2FGL J1824.5-1351e
   Name_3FGL: 3FGL J1824.5-1351e
-  Photon_Flux: 7.839999760506089e-09
-  RAJ2000: 276.1297912597656
+  Photon_Flux: 7.84e-09
+  Energy_Flux: 1.61e-10
   Source_Name: HESS J1825-137
   Spatial_Filename: ''
   Spatial_Function: RadialGaussian
@@ -1429,19 +1429,19 @@ HESS J1825-137:
       scale: 1e-14
       value: '4.69'
 HESS J1841-055:
-  DEJ2000: -5.550000190734863
-  Energy_Flux: 1.4600000375342148e-10
-  GLAT: -0.20000000298023224
-  GLON: 26.799999237060547
+  RAJ2000: 280.23
+  DEJ2000: -5.55
+  GLAT: -0.20
+  GLON: 26.8
   Model_Form: 2D Gaussian
+  Model_SemiMajor: 0.62
+  Model_SemiMinor: 0.38
   Model_PosAng: 39.0
-  Model_SemiMajor: 0.6200000047683716
-  Model_SemiMinor: 0.3799999952316284
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: 3FGL J1840.9-0532e
-  Photon_Flux: 1.1800000088157958e-08
-  RAJ2000: 280.2300109863281
+  Photon_Flux: 1.18e-08
+  Energy_Flux: 1.46e-10
   Source_Name: HESS J1841-055
   Spatial_Filename: $LATEXTDIR/Templates/HESSJ1841-055.fits
   Spatial_Function: SpatialMap
@@ -1472,23 +1472,23 @@ HESS J1841-055:
       scale: '1000'
       value: '9.7'
 HESS J1857+026:
-  DEJ2000: 2.7739999294281006
-  Energy_Flux: 8.630000186693465e-11
-  GLAT: -0.14841480553150177
-  GLON: 36.125301361083984
+  RAJ2000: 284.449
+  DEJ2000: 2.774
+  GLAT: -0.1484
+  GLON: 36.1253
   Model_Form: Disk
+  Model_SemiMajor: 0.613
+  Model_SemiMinor: 0.613
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.6129392981529236
-  Model_SemiMinor: 0.6129392981529236
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: ''
-  Photon_Flux: 7.430000170671747e-09
-  RAJ2000: 284.4490051269531
+  Photon_Flux: 7.43e-09
+  Energy_Flux: 8.63e-11
   Source_Name: HESS J1857+026
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1857.7+0246.xml
+  Spectral_Filename: $LATEXTDIR/XML/HESSJ1857+026.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -1515,19 +1515,19 @@ HESS J1857+026:
       scale: '1000'
       value: '8'
 IC 443:
-  DEJ2000: 22.579999923706055
-  Energy_Flux: 5.07999975418727e-10
-  GLAT: 3.0329999923706055
-  GLON: 189.04800415039062
+  RAJ2000: 94.31
+  DEJ2000: 22.58
+  GLAT: 3.033
+  GLON: 189.048
   Model_Form: 2D Gaussian
+  Model_SemiMajor: 0.27
+  Model_SemiMinor: 0.27
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.27000001072883606
-  Model_SemiMinor: 0.27000001072883606
   Name_1FGL: 1FGL J0617.2+2233
   Name_2FGL: 2FGL J0617.2+2234e
   Name_3FGL: 3FGL J0617.2+2234e
-  Photon_Flux: 6.369999994149111e-08
-  RAJ2000: 94.30999755859375
+  Photon_Flux: 6.37e-08
+  Energy_Flux: 5.08e-10
   Source_Name: IC 443
   Spatial_Filename: ''
   Spatial_Function: RadialGaussian
@@ -1566,19 +1566,19 @@ IC 443:
       scale: 1e-11
       value: '3.43'
 LMC-30DorWest:
+  RAJ2000: 82.5
   DEJ2000: -69.0
-  Energy_Flux: 4.059999905714484e-11
-  GLAT: -32.459999084472656
-  GLON: 279.4700012207031
+  GLAT: -32.46
+  GLON: 279.47
   Model_Form: Map
+  Model_SemiMajor: 0.90
+  Model_SemiMinor: 0.90
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.8999999761581421
-  Model_SemiMinor: 0.8999999761581421
   Name_1FGL: 1FGL J0523.3-6855
   Name_2FGL: 2FGL J0526.6-6825e
   Name_3FGL: 3FGL J0524.5-6937
-  Photon_Flux: 3.620000077475538e-09
-  RAJ2000: 82.5
+  Photon_Flux: 3.62e-09
+  Energy_Flux: 4.06e-11
   Source_Name: LMC-30DorWest
   Spatial_Filename: $LATEXTDIR/Templates/LMC-30DorWest.fits
   Spatial_Function: SpatialMap
@@ -1609,19 +1609,19 @@ LMC-30DorWest:
       scale: '1000'
       value: '1'
 LMC-FarWest:
+  RAJ2000: 75.25
   DEJ2000: -69.75
-  Energy_Flux: 1.659999915304411e-11
-  GLAT: -34.790000915527344
+  GLAT: -34.79
   GLON: 281.0
   Model_Form: Map
+  Model_SemiMajor: 0.90
+  Model_SemiMinor: 0.90
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.8999999761581421
-  Model_SemiMinor: 0.8999999761581421
   Name_1FGL: 1FGL J0459.7-6921
   Name_2FGL: 2FGL J0455.8-6920
   Name_3FGL: 3FGL J0456.2-6924
-  Photon_Flux: 1.4900000122608503e-09
-  RAJ2000: 75.25
+  Photon_Flux: 1.49e-09
+  Energy_Flux: 1.66e-11
   Source_Name: LMC-FarWest
   Spatial_Filename: $LATEXTDIR/Templates/LMC-FarWest.fits
   Spatial_Function: SpatialMap
@@ -1652,19 +1652,19 @@ LMC-FarWest:
       scale: '1000'
       value: '1'
 LMC-Galaxy:
+  RAJ2000: 80.0
   DEJ2000: -68.75
-  Energy_Flux: 1.1399999694239327e-10
-  GLAT: -33.38999938964844
-  GLON: 279.3599853515625
+  GLAT: -33.39
+  GLON: 279.36
   Model_Form: Map
-  Model_PosAng: 0.0
   Model_SemiMajor: 3.0
   Model_SemiMinor: 3.0
+  Model_PosAng: 0.0
   Name_1FGL: ''
   Name_2FGL: 2FGL J0526.6-6825e
   Name_3FGL: 3FGL J0526.6-6825e
-  Photon_Flux: 1.3200000203994477e-08
-  RAJ2000: 80.0
+  Photon_Flux: 1.32e-08
+  Energy_Flux: 1.14e-10
   Source_Name: LMC-Galaxy
   Spatial_Filename: $LATEXTDIR/Templates/LMC-Galaxy.fits
   Spatial_Function: SpatialMap
@@ -1703,19 +1703,19 @@ LMC-Galaxy:
       scale: 1e-11
       value: '1.80'
 LMC-North:
-  DEJ2000: -66.6500015258789
-  Energy_Flux: 2.049999926756474e-11
-  GLAT: -32.59000015258789
-  GLON: 276.67999267578125
+  RAJ2000: 82.97
+  DEJ2000: -66.65
+  GLAT: -32.59
+  GLON: 276.68
   Model_Form: Map
+  Model_SemiMajor: 0.60
+  Model_SemiMinor: 0.60
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.6000000238418579
-  Model_SemiMinor: 0.6000000238418579
   Name_1FGL: 1FGL J0531.3-6716
   Name_2FGL: 2FGL J0533.3-6651
   Name_3FGL: 3FGL J0525.2-6614
-  Photon_Flux: 1.810000038737769e-09
-  RAJ2000: 82.97000122070312
+  Photon_Flux: 1.81e-09
+  Energy_Flux: 2.05e-11
   Source_Name: LMC-North
   Spatial_Filename: $LATEXTDIR/Templates/LMC-North.fits
   Spatial_Function: SpatialMap
@@ -1746,23 +1746,23 @@ LMC-North:
       scale: '1000'
       value: '1'
 MSH 15-52:
-  DEJ2000: -59.16299819946289
-  Energy_Flux: 5.010000053706776e-11
-  GLAT: -1.208878755569458
-  GLON: 320.3457946777344
+  RAJ2000: 228.57
+  DEJ2000: -59.163
+  GLAT: -1.2089
+  GLON: 320.3458
   Model_Form: Disk
+  Model_SemiMajor: 0.243
+  Model_SemiMinor: 0.243
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.24290679395198822
-  Model_SemiMinor: 0.24290679395198822
   Name_1FGL: 1FGL J1514.7-5917
   Name_2FGL: 2FGL J1514.0-5915e
   Name_3FGL: 3FGL J1514.0-5915e
-  Photon_Flux: 3.749999866187181e-09
-  RAJ2000: 228.5709991455078
+  Photon_Flux: 3.75e-09
+  Energy_Flux: 5.01e-11
   Source_Name: MSH 15-52
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1514.2-5909.xml
+  Spectral_Filename: $LATEXTDIR/XML/MSH15-52_v2.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -1789,19 +1789,19 @@ MSH 15-52:
       scale: '1000'
       value: '13'
 MSH 15-56:
-  DEJ2000: -56.189998626708984
-  Energy_Flux: 7.349999775474458e-11
-  GLAT: -1.7599999904632568
-  GLON: 326.260009765625
+  RAJ2000: 238.20
+  DEJ2000: -56.19
+  GLAT: -1.76
+  GLON: 326.26
   Model_Form: Disk
+  Model_SemiMajor: 0.21
+  Model_SemiMinor: 0.21
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.20999999344348907
-  Model_SemiMinor: 0.20999999344348907
   Name_1FGL: 1FGL J1552.4-5609
   Name_2FGL: 2FGL J1552.8-5609
   Name_3FGL: 3FGL J1552.9-5610
-  Photon_Flux: 6.560000098687624e-09
-  RAJ2000: 238.1999969482422
+  Photon_Flux: 6.56e-09
+  Energy_Flux: 7.35e-11
   Source_Name: MSH 15-56
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -1831,20 +1831,20 @@ MSH 15-56:
       name: Scale
       scale: '1000'
       value: '2.4'
-Monoceros:
-  DEJ2000: 6.929999828338623
-  Energy_Flux: 1.6100000499452705e-10
-  GLAT: 0.503000020980835
-  GLON: 205.39999389648438
+Monoceros: 
+  RAJ2000: 99.86
+  DEJ2000: 6.93
+  GLAT: 0.503
+  GLON: 205.40
   Model_Form: 2D Gaussian
+  Model_SemiMajor: 3.47
+  Model_SemiMinor: 3.47
   Model_PosAng: 0.0
-  Model_SemiMajor: 3.4700000286102295
-  Model_SemiMinor: 3.4700000286102295
   Name_1FGL: ''
   Name_2FGL: 2FGL J0637.8+0737
   Name_3FGL: 3FGL J0640.9+0752
-  Photon_Flux: 2.0599999928094803e-08
-  RAJ2000: 99.86000061035156
+  Photon_Flux: 2.06e-08
+  Energy_Flux: 1.61e-10
   Source_Name: Monoceros
   Spatial_Filename: ''
   Spatial_Function: RadialGaussian
@@ -1882,24 +1882,24 @@ Monoceros:
       name: norm
       scale: 1e-11
       value: '3.0'
-Puppis A:
-  DEJ2000: -42.888999938964844
-  Energy_Flux: 6.729999890708882e-11
-  GLAT: -3.374267578125
-  GLON: 260.3090515136719
+Puppis A: 
+  RAJ2000: 125.544
+  DEJ2000: -42.889
+  GLAT: -3.3743
+  GLON: 260.3091
   Model_Form: Disk
+  Model_SemiMajor: 0.443
+  Model_SemiMinor: 0.443
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.44306740164756775
-  Model_SemiMinor: 0.44306740164756775
   Name_1FGL: 1FGL J0823.3-4248
   Name_2FGL: 2FGL J0823.0-4246
   Name_3FGL: 3FGL J0822.6-4250e
-  Photon_Flux: 7.629999743130611e-09
-  RAJ2000: 125.54399871826172
+  Photon_Flux: 7.63e-09
+  Energy_Flux: 6.73e-11
   Source_Name: Puppis A
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ0822.1-4253.xml
+  Spectral_Filename: $LATEXTDIR/XML/PuppisA_v2.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -1926,19 +1926,19 @@ Puppis A:
       scale: '1000'
       value: '2.6'
 RCW 86:
-  DEJ2000: -62.45000076293945
-  Energy_Flux: 1.1399999867711674e-11
-  GLAT: -2.319999933242798
-  GLON: 315.44000244140625
+  RAJ2000: 220.76
+  DEJ2000: -62.45
+  GLAT: -2.32
+  GLON: 315.44
   Model_Form: Map
-  Model_PosAng: 0.0
-  Model_SemiMajor: 0.30000001192092896
-  Model_SemiMinor: 0.30000001192092896
+  Model_SemiMajor: 0.38
+  Model_SemiMinor: 0.33
+  Model_PosAng: 75.0
   Name_1FGL: ''
   Name_2FGL: ''
   Name_3FGL: ''
-  Photon_Flux: 5.949999937193695e-10
-  RAJ2000: 220.75999450683594
+  Photon_Flux: 5.95e-10
+  Energy_Flux: 1.14e-11
   Source_Name: RCW 86
   Spatial_Filename: $LATEXTDIR/Templates/RCW86.fits
   Spatial_Function: SpatialMap
@@ -1968,20 +1968,20 @@ RCW 86:
       name: Scale
       scale: '1000'
       value: '10'
-RX J1713.7-3946:
-  DEJ2000: -39.7599983215332
-  Energy_Flux: 6.680000302905498e-11
-  GLAT: -0.4699999988079071
-  GLON: 347.3399963378906
+RX J1713.7-3946: 
+  RAJ2000: 258.39
+  DEJ2000: -39.76
+  GLAT: -0.47
+  GLON: 347.34
   Model_Form: Map
+  Model_SemiMajor: 0.56
+  Model_SemiMinor: 0.56
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.5600000023841858
-  Model_SemiMinor: 0.5600000023841858
   Name_1FGL: 1FGL J1711.7-3944c
   Name_2FGL: 2FGL J1712.4-3941
   Name_3FGL: 3FGL J1713.5-3945e
-  Photon_Flux: 4.5399999315520745e-09
-  RAJ2000: 258.3900146484375
+  Photon_Flux: 4.54e-09
+  Energy_Flux: 6.68e-11
   Source_Name: RX J1713.7-3946
   Spatial_Filename: $LATEXTDIR/Templates/RXJ1713_2016_250GeV.fits
   Spatial_Function: SpatialMap
@@ -2012,19 +2012,19 @@ RX J1713.7-3946:
       scale: '1000'
       value: '14.2'
 Rosette:
-  DEJ2000: 4.607999801635742
-  Energy_Flux: 4.099999853512948e-11
-  GLAT: -1.7000000476837158
+  RAJ2000: 98.573
+  DEJ2000: 4.608
+  GLAT: -1.70
   GLON: 206.875
   Model_Form: Map
-  Model_PosAng: -40.0
   Model_SemiMajor: 1.5
   Model_SemiMinor: 0.875
+  Model_PosAng: -40.0
   Name_1FGL: 1FGL J0634.3+0402c
   Name_2FGL: 2FGL J0634.3+0356c
   Name_3FGL: 3FGL J0634.1+0424
-  Photon_Flux: 6.700000110271276e-09
-  RAJ2000: 98.572998046875
+  Photon_Flux: 6.70e-09
+  Energy_Flux: 4.10e-11
   Source_Name: Rosette
   Spatial_Filename: $LATEXTDIR/Templates/Rosette.fits
   Spatial_Function: SpatialMap
@@ -2063,19 +2063,19 @@ Rosette:
       scale: 1e-11
       value: '2.0'
 S 147:
-  DEJ2000: 27.940000534057617
-  Energy_Flux: 9.02000002467318e-11
+  RAJ2000: 85.1
+  DEJ2000: 27.94
   GLAT: -1.5
   GLON: 180.25
   Model_Form: Map
-  Model_PosAng: 0.0
   Model_SemiMajor: 1.5
   Model_SemiMinor: 1.5
+  Model_PosAng: 0.0
   Name_1FGL: 1FGL J0538.6+2717
   Name_2FGL: 2FGL J0538.1+2718
   Name_3FGL: 3FGL J0540.3+2756e
-  Photon_Flux: 7.989999772917145e-09
-  RAJ2000: 85.0999984741211
+  Photon_Flux: 7.99e-09
+  Energy_Flux: 9.02e-11
   Source_Name: S 147
   Spatial_Filename: $LATEXTDIR/Templates/S147.fits
   Spatial_Function: SpatialMap
@@ -2106,19 +2106,19 @@ S 147:
       scale: '1000'
       value: '0.705'
 SMC-Galaxy:
+  RAJ2000: 14.5
   DEJ2000: -72.75
-  Energy_Flux: 3.199999987213431e-11
-  GLAT: -44.369998931884766
+  GLAT: -44.37
   GLON: 302.25
   Model_Form: Map
-  Model_PosAng: 0.0
   Model_SemiMajor: 1.5
   Model_SemiMinor: 1.5
+  Model_PosAng: 0.0
   Name_1FGL: 1FGL J0101.3-7257
   Name_2FGL: 2FGL J0059.0-7242e
   Name_3FGL: 3FGL J0059.0-7242e
-  Photon_Flux: 3.3400000543082342e-09
-  RAJ2000: 14.5
+  Photon_Flux: 3.34e-09
+  Energy_Flux: 3.20e-11
   Source_Name: SMC-Galaxy
   Spatial_Filename: $LATEXTDIR/Templates/SMC-Galaxy.fits
   Spatial_Function: SpatialMap
@@ -2163,24 +2163,24 @@ SMC-Galaxy:
       name: Scale
       scale: '1000'
       value: '1'
-Vela Junior:
-  DEJ2000: -46.34199905395508
-  Energy_Flux: 1.4800000114334466e-10
-  GLAT: -1.2322978973388672
-  GLON: 266.26007080078125
+Vela Junior: 
+  RAJ2000: 132.987
+  DEJ2000: -46.342
+  GLAT: -1.2323
+  GLON: 266.2601
   Model_Form: Disk
+  Model_SemiMajor: 0.978
+  Model_SemiMinor: 0.978
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.9777619242668152
-  Model_SemiMinor: 0.9777619242668152
   Name_1FGL: 1FGL J0854.0-4632
   Name_2FGL: 2FGL J0851.7-4635
   Name_3FGL: 3FGL J0852.7-4631e
-  Photon_Flux: 1.3000000187446403e-08
-  RAJ2000: 132.98699951171875
+  Photon_Flux: 1.30e-08
+  Energy_Flux: 1.48e-10
   Source_Name: Vela Junior
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ0851.9-4620.xml
+  Spectral_Filename: $LATEXTDIR/XML/VelaJunior_v2.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -2207,19 +2207,19 @@ Vela Junior:
       scale: '1000'
       value: '4.7'
 Vela X:
-  DEJ2000: -45.190101623535156
-  Energy_Flux: 2.439999868819598e-10
-  GLAT: -3.106100082397461
-  GLON: 263.33209228515625
+  RAJ2000: 128.2872
+  DEJ2000: -45.1901
+  GLAT: -3.1061
+  GLON: 263.3321
   Model_Form: Disk
+  Model_SemiMajor: 0.91
+  Model_SemiMinor: 0.91
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.9100000262260437
-  Model_SemiMinor: 0.9100000262260437
   Name_1FGL: ''
   Name_2FGL: 2FGL J0833.1-4511e
   Name_3FGL: 3FGL J0833.1-4511e
-  Photon_Flux: 1.829999973779195e-08
-  RAJ2000: 128.28720092773438
+  Photon_Flux: 1.83e-08
+  Energy_Flux: 2.44e-10
   Source_Name: Vela X
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
@@ -2248,22 +2248,22 @@ Vela X:
       scale: '1000'
       value: '1'
 W 28:
-  DEJ2000: -23.440000534057617
-  Energy_Flux: 4.1500000658167835e-10
-  GLAT: -0.24899999797344208
-  GLON: 6.525000095367432
+  RAJ2000: 270.34
+  DEJ2000: -23.44
+  GLAT: -0.249
+  GLON: 6.525
   Model_Form: Disk
+  Model_SemiMajor: 0.39
+  Model_SemiMinor: 0.39
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.38999998569488525
-  Model_SemiMinor: 0.38999998569488525
   Name_1FGL: 1FGL J1801.3-2322c
   Name_2FGL: 2FGL J1801.3-2326e
   Name_3FGL: 3FGL J1801.3-2326e
-  Photon_Flux: 5.349999909753933e-08
-  RAJ2000: 270.3399963378906
+  Photon_Flux: 5.35e-08
+  Energy_Flux: 4.15e-10
   Source_Name: W 28
-  Spatial_Filename: $LATEXTDIR/Templates/W28.fits
-  Spatial_Function: SpatialMap
+  Spatial_Filename: ''
+  Spatial_Function: RadialDisk
   Spectral_Filename: $LATEXTDIR/XML/W28.xml
   Spectral_Function: LogParabola
   Spectral_Parameters:
@@ -2299,19 +2299,19 @@ W 28:
       scale: 1e-11
       value: '1.94'
 W 3:
-  DEJ2000: 61.939998626708984
-  Energy_Flux: 1.1600000127121035e-10
-  GLAT: 0.9399999976158142
-  GLON: 133.4199981689453
+  RAJ2000: 35.62
+  DEJ2000: 61.94
+  GLAT: 0.94
+  GLON: 133.42
   Model_Form: Map
+  Model_SemiMajor: 0.6
+  Model_SemiMinor: 0.6
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.6000000238418579
-  Model_SemiMinor: 0.6000000238418579
   Name_1FGL: 1FGL J0224.0+6201c
   Name_2FGL: 2FGL J0224.0+6204
   Name_3FGL: 3FGL J0223.6+6204
-  Photon_Flux: 1.310000019572044e-08
-  RAJ2000: 35.619998931884766
+  Photon_Flux: 1.31e-08
+  Energy_Flux: 1.16e-10
   Source_Name: W 3
   Spatial_Filename: $LATEXTDIR/Templates/W3.fits
   Spatial_Function: SpatialMap
@@ -2350,22 +2350,22 @@ W 3:
       scale: 1e-11
       value: '2.26'
 W 30:
-  DEJ2000: -21.6117000579834
-  Energy_Flux: 1.6199999675059473e-10
-  GLAT: -0.21060000360012054
-  GLON: 8.603799819946289
+  RAJ2000: 271.4083
+  DEJ2000: -21.6117
+  GLAT: -0.2106
+  GLON: 8.6038
   Model_Form: Disk
+  Model_SemiMajor: 0.37
+  Model_SemiMinor: 0.37
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.3700000047683716
-  Model_SemiMinor: 0.3700000047683716
   Name_1FGL: 1FGL J1805.2-2137c
   Name_2FGL: 2FGL J1805.6-2136e
   Name_3FGL: 3FGL J1805.6-2136e
-  Photon_Flux: 1.899999979571021e-08
-  RAJ2000: 271.4082946777344
+  Photon_Flux: 1.90e-08
+  Energy_Flux: 1.62e-10
   Source_Name: W 30
-  Spatial_Filename: $LATEXTDIR/Templates/W30.fits
-  Spatial_Function: SpatialMap
+  Spatial_Filename: ''
+  Spatial_Function: RadialDisk
   Spectral_Filename: $LATEXTDIR/XML/W30.xml
   Spectral_Function: LogParabola
   Spectral_Parameters:
@@ -2401,19 +2401,19 @@ W 30:
       scale: 1e-11
       value: '1.94'
 W 41:
-  DEJ2000: -8.779999732971191
-  Energy_Flux: 1.000000013351432e-10
-  GLAT: -0.2800000011920929
-  GLON: 23.200000762939453
+  RAJ2000: 278.64
+  DEJ2000: -8.78
+  GLAT: -0.28
+  GLON: 23.2
   Model_Form: 2D Gaussian
+  Model_SemiMajor: 0.23
+  Model_SemiMinor: 0.23
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.23000000417232513
-  Model_SemiMinor: 0.23000000417232513
   Name_1FGL: 1FGL J1834.3-0842c
   Name_2FGL: 2FGL J1834.3-0848
   Name_3FGL: 3FGL J1834.5-0841
-  Photon_Flux: 8.889999847383478e-09
-  RAJ2000: 278.6400146484375
+  Photon_Flux: 8.89e-09
+  Energy_Flux: 1.00e-10
   Source_Name: W 41
   Spatial_Filename: ''
   Spatial_Function: RadialGaussian
@@ -2444,19 +2444,19 @@ W 41:
       scale: '1000'
       value: '4.088'
 W 44:
-  DEJ2000: 1.3550000190734863
-  Energy_Flux: 5.349999887549473e-10
-  GLAT: -0.3880000114440918
-  GLON: 34.65340042114258
+  RAJ2000: 283.99
+  DEJ2000: 1.355
+  GLAT: -0.388
+  GLON: 34.6534
   Model_Form: Ring
+  Model_SemiMajor: 0.3
+  Model_SemiMinor: 0.19
   Model_PosAng: -33.0
-  Model_SemiMajor: 0.30000001192092896
-  Model_SemiMinor: 0.1899999976158142
   Name_1FGL: 1FGL J1856.1+0122
   Name_2FGL: 2FGL J1855.9+0121e
   Name_3FGL: 3FGL J1855.9+0121e
-  Photon_Flux: 7.069999696796003e-08
-  RAJ2000: 283.989990234375
+  Photon_Flux: 7.07e-08
+  Energy_Flux: 5.35e-10
   Source_Name: W 44
   Spatial_Filename: $LATEXTDIR/Templates/W44.fits
   Spatial_Function: SpatialMap
@@ -2495,19 +2495,19 @@ W 44:
       scale: 1e-11
       value: '2.34'
 W 51C:
-  DEJ2000: 14.145000457763672
-  Energy_Flux: 3.450000007898524e-10
-  GLAT: -0.4620000123977661
-  GLON: 49.11600112915039
+  RAJ2000: 290.818
+  DEJ2000: 14.145
+  GLAT: -0.462
+  GLON: 49.116
   Model_Form: Disk
-  Model_PosAng: 90.0
   Model_SemiMajor: 0.375
-  Model_SemiMinor: 0.25999999046325684
+  Model_SemiMinor: 0.260
+  Model_PosAng: 90.0
   Name_1FGL: 1FGL J1922.9+1411
   Name_2FGL: 2FGL J1923.2+1408e
   Name_3FGL: 3FGL J1923.2+1408e
-  Photon_Flux: 3.959999972380501e-08
-  RAJ2000: 290.8179931640625
+  Photon_Flux: 3.96e-08
+  Energy_Flux: 3.45e-10
   Source_Name: W 51C
   Spatial_Filename: $LATEXTDIR/Templates/W51C.fits
   Spatial_Function: SpatialMap
@@ -2546,23 +2546,23 @@ W 51C:
       scale: 1e-11
       value: '2.52'
 Westerlund 2:
-  DEJ2000: -57.79399871826172
-  Energy_Flux: 7.769999921247717e-11
-  GLAT: -0.4104174077510834
-  GLON: 284.209228515625
+  RAJ2000: 155.828
+  DEJ2000: -57.794
+  GLAT: -0.4104
+  GLON: 284.2092
   Model_Form: Disk
+  Model_SemiMajor: 0.278
+  Model_SemiMinor: 0.278
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.2779073417186737
-  Model_SemiMinor: 0.2779073417186737
   Name_1FGL: 1FGL J1023.0-5746
   Name_2FGL: 2FGL J1022.7-5741
   Name_3FGL: 3FGL J1023.1-5745
-  Photon_Flux: 7.010000135920791e-09
-  RAJ2000: 155.8280029296875
+  Photon_Flux: 7.01e-09
+  Energy_Flux: 7.77e-11
   Source_Name: Westerlund 2
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
-  Spectral_Filename: $LATEXTDIR/XML/FGESJ1023.3-5747.xml
+  Spectral_Filename: $LATEXTDIR/XML/Westerlund2.xml
   Spectral_Function: PowerLaw
   Spectral_Parameters:
     Index:
@@ -2589,19 +2589,19 @@ Westerlund 2:
       scale: '1000'
       value: '10'
 gamma Cygni:
-  DEJ2000: 40.52000045776367
-  Energy_Flux: 1.1399999867711674e-11
-  GLAT: 2.200000047683716
-  GLON: 78.23999786376953
+  RAJ2000: 305.27
+  DEJ2000: 40.52
+  GLAT: 2.20
+  GLON: 78.24
   Model_Form: Disk
+  Model_SemiMajor: 0.63
+  Model_SemiMinor: 0.63
   Model_PosAng: 0.0
-  Model_SemiMajor: 0.6299999952316284
-  Model_SemiMinor: 0.6299999952316284
   Name_1FGL: 1FGL J2020.0+4049
   Name_2FGL: 2FGL J2019.1+4040
   Name_3FGL: 3FGL J2021.0+4031e
-  Photon_Flux: 6.900000015797048e-10
-  RAJ2000: 305.2699890136719
+  Photon_Flux: 6.90e-10
+  Energy_Flux: 1.14e-11
   Source_Name: gamma Cygni
   Spatial_Filename: ''
   Spatial_Function: RadialDisk
